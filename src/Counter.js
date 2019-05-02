@@ -3,11 +3,12 @@ import { connect } from "react-redux";
 
 class Counter extends React.Component {
   increment = () => {
-    ///lates
+    //via connect, we are allowed to dispatch the action via action type
+    this.props.dispatch({ type: "INCREMENT" });
   };
 
   decrement = () => {
-    //fill later
+    this.props.dispatch({ type: "DECREMENT" });
   };
 
   render() {

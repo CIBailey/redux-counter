@@ -1,0 +1,7 @@
+{
+  type: "INCREMENT";
+}
+
+{
+  type: "DECREENT";
+}
