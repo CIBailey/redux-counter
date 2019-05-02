@@ -1,0 +1,7 @@
+.counter-wrapper {
+  text-align: center;
+}
+
+.counter-child {
+  display: inline-block;
+}
